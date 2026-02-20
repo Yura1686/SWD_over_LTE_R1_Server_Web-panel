@@ -1,0 +1,15 @@
+[Unit]
+Description=LTE_SWD R1 Backend Server
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/lte_swd
+EnvironmentFile=/opt/lte_swd/deploy/pi3/env
+ExecStart=/opt/lte_swd/deploy/pi3/run_server.sh
+Restart=always
+RestartSec=3
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,1339 @@
+{
+  "devices": {
+    "1234567890": {
+      "device_id": "1234567890",
+      "hw_uid": "5303284748C5369C",
+      "modem_imei": "867962045443317",
+      "sim_iccid": "89380062300712683050",
+      "firmware_version": "r1.2.0-firmware",
+      "device_token": "dev_48bf61d2d2fa29f3c524b34024c4cdea",
+      "registered_at": "2026-02-17T22:34:15.46992178Z",
+      "last_seen_at": "2026-02-20T14:06:23.137323935Z",
+      "last_heartbeat_at": "2026-02-20T14:06:23.137323935Z",
+      "last_telemetry_at": "2026-02-20T13:46:36.929489926Z",
+      "last_location_at": "2026-02-18T13:05:10.593080857Z",
+      "last_telemetry": {
+        "battery_mv": 0,
+        "supply_mv": 0,
+        "temperature_c": 31,
+        "rssi_dbm": -71,
+        "network_state": "attached",
+        "uptime_sec": 56
+      },
+      "last_location": {
+        "lat": 49.99272,
+        "lon": 36.35571,
+        "alt_m": 0,
+        "accuracy_m": 15,
+        "source": "gnss"
+      },
+      "status": "offline"
+    }
+  },
+  "telemetry_by_id": {
+    "1234567890": [
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-17T23:05:01.498516203Z",
+        "data": {
+          "battery_mv": 4002,
+          "supply_mv": 5000,
+          "temperature_c": 30.7,
+          "rssi_dbm": -71,
+          "network_state": "attached",
+          "uptime_sec": 48
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-17T23:05:54.650662061Z",
+        "data": {
+          "battery_mv": 4038,
+          "supply_mv": 5000,
+          "temperature_c": 30.4,
+          "rssi_dbm": -71,
+          "network_state": "attached",
+          "uptime_sec": 102
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-17T23:06:52.40966702Z",
+        "data": {
+          "battery_mv": 3991,
+          "supply_mv": 5000,
+          "temperature_c": 29.5,
+          "rssi_dbm": -77,
+          "network_state": "attached",
+          "uptime_sec": 149
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-17T23:07:51.578041736Z",
+        "data": {
+          "battery_mv": 4011,
+          "supply_mv": 5000,
+          "temperature_c": 29.5,
+          "rssi_dbm": -65,
+          "network_state": "attached",
+          "uptime_sec": 219
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-17T23:21:33.027129017Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.5,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 79
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-17T23:22:15.64872491Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.7,
+          "rssi_dbm": -69,
+          "network_state": "attached",
+          "uptime_sec": 112
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-17T23:23:08.596509419Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 175
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-17T23:27:23.342902844Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 56
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-17T23:27:53.425521789Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 86
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-17T23:28:28.285845841Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 121
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-17T23:29:08.627496866Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 151
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-17T23:29:38.931148057Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 192
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T11:39:24.180811659Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31,
+          "rssi_dbm": -61,
+          "network_state": "attached",
+          "uptime_sec": 57
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T11:39:57.890525402Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -61,
+          "network_state": "attached",
+          "uptime_sec": 83
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T11:40:37.034518088Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31,
+          "rssi_dbm": -61,
+          "network_state": "attached",
+          "uptime_sec": 122
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T11:41:20.631356728Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.1,
+          "rssi_dbm": -61,
+          "network_state": "attached",
+          "uptime_sec": 165
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T11:42:05.063634796Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -61,
+          "network_state": "attached",
+          "uptime_sec": 209
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T11:42:07.559276069Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -61,
+          "network_state": "attached",
+          "uptime_sec": 228
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T11:42:46.553295076Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.7,
+          "rssi_dbm": -61,
+          "network_state": "attached",
+          "uptime_sec": 251
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T11:43:30.830270808Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -69,
+          "network_state": "attached",
+          "uptime_sec": 295
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T11:44:19.267298105Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 334
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T11:44:42.90315316Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -61,
+          "network_state": "attached",
+          "uptime_sec": 368
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T11:45:11.292293625Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.7,
+          "rssi_dbm": -61,
+          "network_state": "attached",
+          "uptime_sec": 396
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T11:45:23.856990669Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -61,
+          "network_state": "attached",
+          "uptime_sec": 414
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T11:45:59.054612626Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.1,
+          "rssi_dbm": -79,
+          "network_state": "attached",
+          "uptime_sec": 444
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:35:02.280844792Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.7,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 116
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:35:45.383650217Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 133
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:36:43.872066704Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 201
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:37:12.481502498Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 240
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:37:51.030517122Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 278
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:38:24.002881311Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 311
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:38:57.101082762Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 344
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:39:09.590137067Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 363
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:39:38.673331155Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 386
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:40:07.509576914Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 414
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:40:31.00874136Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -69,
+          "network_state": "attached",
+          "uptime_sec": 438
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:41:16.080998814Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31,
+          "rssi_dbm": -69,
+          "network_state": "attached",
+          "uptime_sec": 472
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:42:00.272119503Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.1,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 517
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:44:06.21749769Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.1,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 653
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:44:19.519072296Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.7,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 673
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:45:13.335310319Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.1,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 721
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:46:02.65817596Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 760
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:46:35.776407101Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 803
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:47:04.228197947Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 832
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:47:27.199396583Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 854
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:47:50.169932802Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 877
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:48:24.478988441Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.5,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 912
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:49:02.927227684Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.7,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 950
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:49:31.313807113Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 979
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:50:15.067324232Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -65,
+          "network_state": "attached",
+          "uptime_sec": 1012
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:50:38.151178444Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -57,
+          "network_state": "attached",
+          "uptime_sec": 1045
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:50:40.607855949Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -57,
+          "network_state": "attached",
+          "uptime_sec": 1064
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:51:29.774123428Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.7,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 1097
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:51:58.235856329Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.5,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 1126
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:52:59.893954458Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -51,
+          "network_state": "attached",
+          "uptime_sec": 1187
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:58:24.860028766Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 103
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T12:59:08.143708138Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -59,
+          "network_state": "attached",
+          "uptime_sec": 131
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:02:05.392499398Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.7,
+          "rssi_dbm": -61,
+          "network_state": "attached",
+          "uptime_sec": 113
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:02:31.013130412Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.5,
+          "rssi_dbm": -77,
+          "network_state": "attached",
+          "uptime_sec": 147
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:04:36.856561244Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 271
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:05:05.308401897Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 294
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:05:49.080070971Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31,
+          "rssi_dbm": -69,
+          "network_state": "attached",
+          "uptime_sec": 338
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:06:17.491603572Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 366
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:06:50.488335866Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.7,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 399
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:07:28.977643649Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 437
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:07:52.018291903Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.7,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 460
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:08:20.4349888Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 489
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:08:49.414598485Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.1,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 517
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:09:19.381318046Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 547
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:09:47.929176498Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 576
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:10:00.517505022Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 595
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:10:39.047241819Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 627
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T13:11:17.548412956Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.1,
+          "rssi_dbm": -63,
+          "network_state": "attached",
+          "uptime_sec": 656
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T20:15:50.822864135Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31,
+          "rssi_dbm": -71,
+          "network_state": "attached",
+          "uptime_sec": 56
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-18T20:16:19.456127089Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.5,
+          "rssi_dbm": -71,
+          "network_state": "attached",
+          "uptime_sec": 77
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T15:50:01.196804253Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31,
+          "rssi_dbm": -69,
+          "network_state": "attached",
+          "uptime_sec": 57
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T15:50:51.661836016Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 107
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T15:51:22.142248719Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 137
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T15:51:56.962374588Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 172
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T15:52:31.91279917Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 207
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T15:53:07.756270394Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 243
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T15:53:38.114174253Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.5,
+          "rssi_dbm": -75,
+          "network_state": "attached",
+          "uptime_sec": 284
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T15:54:18.68662812Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -71,
+          "network_state": "attached",
+          "uptime_sec": 314
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T22:05:39.255821202Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -71,
+          "network_state": "attached",
+          "uptime_sec": 173
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T22:06:09.665223973Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -71,
+          "network_state": "attached",
+          "uptime_sec": 206
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T22:06:34.331358728Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.4,
+          "rssi_dbm": -71,
+          "network_state": "attached",
+          "uptime_sec": 241
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T22:07:04.624915853Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -71,
+          "network_state": "attached",
+          "uptime_sec": 271
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T22:07:34.959696165Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.1,
+          "rssi_dbm": -71,
+          "network_state": "attached",
+          "uptime_sec": 301
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T22:08:18.204762653Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -65,
+          "network_state": "attached",
+          "uptime_sec": 344
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T22:09:01.588664121Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.1,
+          "rssi_dbm": -65,
+          "network_state": "attached",
+          "uptime_sec": 379
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T22:09:29.966268842Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31,
+          "rssi_dbm": -65,
+          "network_state": "attached",
+          "uptime_sec": 408
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T22:09:58.433886272Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -65,
+          "network_state": "attached",
+          "uptime_sec": 437
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T22:10:26.812295635Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.7,
+          "rssi_dbm": -65,
+          "network_state": "attached",
+          "uptime_sec": 465
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-19T22:10:39.194367672Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31.3,
+          "rssi_dbm": -65,
+          "network_state": "attached",
+          "uptime_sec": 483
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-20T13:41:05.385475956Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31,
+          "rssi_dbm": -71,
+          "network_state": "attached",
+          "uptime_sec": 57
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-20T13:41:54.030301832Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 30.1,
+          "rssi_dbm": -71,
+          "network_state": "attached",
+          "uptime_sec": 94
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-20T13:42:44.345787805Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 29.8,
+          "rssi_dbm": -71,
+          "network_state": "attached",
+          "uptime_sec": 154
+        }
+      },
+      {
+        "device_id": "1234567890",
+        "timestamp": "2026-02-20T13:46:36.929489926Z",
+        "data": {
+          "battery_mv": 0,
+          "supply_mv": 0,
+          "temperature_c": 31,
+          "rssi_dbm": -71,
+          "network_state": "attached",
+          "uptime_sec": 56
+        }
+      }
+    ]
+  },
+  "commands_by_id": {
+    "1234567890": [
+      {
+        "command_id": "cmd_e41eb3a723728d9c705aff0a",
+        "device_id": "1234567890",
+        "type": "swd_verify",
+        "payload": {},
+        "created_by": "operator",
+        "created_at": "2026-02-20T13:41:12.780060629Z",
+        "dispatched_at": "2026-02-20T13:41:19.110311605Z",
+        "status": "dispatched"
+      },
+      {
+        "command_id": "cmd_a385f363cb502a6fd17728ab",
+        "device_id": "1234567890",
+        "type": "swd_write_memory",
+        "payload": {},
+        "created_by": "operator",
+        "created_at": "2026-02-20T13:41:23.494560952Z",
+        "dispatched_at": "2026-02-20T13:42:05.513195564Z",
+        "status": "dispatched"
+      },
+      {
+        "command_id": "cmd_2d0a31f367c42126ba9bea40",
+        "device_id": "1234567890",
+        "type": "swd_write_memory",
+        "payload": {},
+        "created_by": "operator",
+        "created_at": "2026-02-20T13:41:52.042212087Z",
+        "dispatched_at": "2026-02-20T13:42:56.320156039Z",
+        "status": "dispatched"
+      },
+      {
+        "command_id": "cmd_838c4c10eba231fb71cc589a",
+        "device_id": "1234567890",
+        "type": "swd_connect",
+        "payload": {},
+        "created_by": "operator",
+        "created_at": "2026-02-20T13:46:34.456113977Z",
+        "dispatched_at": "2026-02-20T13:46:58.291170887Z",
+        "status": "dispatched"
+      },
+      {
+        "command_id": "cmd_9a036481a12893432b40b9e6",
+        "device_id": "1234567890",
+        "type": "swd_write_memory",
+        "payload": {},
+        "created_by": "operator",
+        "created_at": "2026-02-20T13:47:08.263092508Z",
+        "status": "queued"
+      },
+      {
+        "command_id": "cmd_e620deeec121308f9633d484",
+        "device_id": "1234567890",
+        "type": "swd_connect",
+        "payload": {},
+        "created_by": "operator",
+        "created_at": "2026-02-20T14:06:12.219849658Z",
+        "status": "queued"
+      },
+      {
+        "command_id": "cmd_d130709711ef1d9c21ea5cd1",
+        "device_id": "1234567890",
+        "type": "swd_connect",
+        "payload": {},
+        "created_by": "operator",
+        "created_at": "2026-02-20T14:06:14.832643792Z",
+        "status": "queued"
+      },
+      {
+        "command_id": "cmd_685a141beae8f1561f3fbe12",
+        "device_id": "1234567890",
+        "type": "swd_connect",
+        "payload": {},
+        "created_by": "operator",
+        "created_at": "2026-02-20T14:06:15.59975004Z",
+        "status": "queued"
+      },
+      {
+        "command_id": "cmd_233344308784561f9173ac7e",
+        "device_id": "1234567890",
+        "type": "swd_connect",
+        "payload": {},
+        "created_by": "operator",
+        "created_at": "2026-02-20T14:06:18.53652476Z",
+        "status": "queued"
+      },
+      {
+        "command_id": "cmd_51fa036f92d84b38542e4210",
+        "device_id": "1234567890",
+        "type": "swd_connect",
+        "payload": {},
+        "created_by": "operator",
+        "created_at": "2026-02-20T14:06:23.693688234Z",
+        "status": "queued"
+      },
+      {
+        "command_id": "cmd_93c80bf29a974f3d7cc0adad",
+        "device_id": "1234567890",
+        "type": "swd_connect",
+        "payload": {},
+        "created_by": "operator",
+        "created_at": "2026-02-20T14:06:24.402427229Z",
+        "status": "queued"
+      },
+      {
+        "command_id": "cmd_25af7d53827b10f409a102f3",
+        "device_id": "1234567890",
+        "type": "swd_connect",
+        "payload": {},
+        "created_by": "operator",
+        "created_at": "2026-02-20T14:06:24.800093016Z",
+        "status": "queued"
+      },
+      {
+        "command_id": "cmd_109496905ab3b87e0f4c7f47",
+        "device_id": "1234567890",
+        "type": "swd_connect",
+        "payload": {},
+        "created_by": "operator",
+        "created_at": "2026-02-20T14:06:25.042723008Z",
+        "status": "queued"
+      }
+    ]
+  },
+  "artifacts": {}
+}

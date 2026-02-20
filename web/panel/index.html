@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LTE_SWD CRT Console</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css?v=R1" />
+  </head>
+  <body>
+    <div class="crt-vignette" aria-hidden="true"></div>
+    <div class="crt-scanlines" aria-hidden="true"></div>
+    <div class="crt-noise" aria-hidden="true"></div>
+
+    <main class="console-shell">
+      <section id="loginSection" class="crt-panel login-panel">
+        <h1>LTE_SWD CONSOLE</h1>
+        <p class="muted">Remote SWD over LTE // RP2040 Host</p>
+
+        <form id="loginForm" class="stacked-form">
+          <label for="password">Operator Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required />
+          <button type="submit">Unlock Console</button>
+        </form>
+        <p id="loginError" class="error" role="alert"></p>
+      </section>
+
+      <section id="appSection" class="app-shell hidden">
+        <header class="crt-panel topbar">
+          <div class="deck-brand">
+            <div class="release-mark" aria-label="Release R1">R1</div>
+            <div class="deck-copy">
+              <h2>Fleet Ops</h2>
+            </div>
+          </div>
+
+          <div class="indicator-rack">
+            <div class="indicator-item">
+              <span id="ledCloud" class="led-dot led-off"></span>
+              <span>CLOUD</span>
+            </div>
+            <div class="indicator-item">
+              <span id="ledModem" class="led-dot led-off"></span>
+              <span>MODEM</span>
+            </div>
+            <div class="indicator-item">
+              <span id="ledCommand" class="led-dot led-off"></span>
+              <span>COMMAND</span>
+            </div>
+          </div>
+
+          <div class="top-actions">
+            <span id="connectionState" class="status-chip">offline</span>
+            <button id="refreshBtn" type="button">Refresh</button>
+          </div>
+        </header>
+
+        <section class="dashboard-grid">
+          <article class="crt-panel fleet-card">
+            <h3>Device Fleet</h3>
+            <ul id="deviceList" class="device-list"></ul>
+          </article>
+
+          <article class="crt-panel map-card">
+            <h3>Geo Feed</h3>
+            <div id="map" class="map"></div>
+          </article>
+
+          <article class="crt-panel detail-card">
+            <h3>Device Card</h3>
+            <div id="deviceDetail" class="detail-grid">
+              <p class="muted">Select a device in fleet list</p>
+            </div>
+          </article>
+
+          <article class="crt-panel command-card">
+            <h3>SWD Command Console</h3>
+            <form id="commandForm" class="stacked-form">
+              <label for="commandType">Command Type</label>
+              <select id="commandType" name="commandType"></select>
+
+              <label for="commandPayload">Payload JSON</label>
+              <textarea id="commandPayload" name="commandPayload" rows="8">{}</textarea>
+
+              <button type="submit">Dispatch Command</button>
+            </form>
+            <p id="commandResult" class="muted"></p>
+          </article>
+
+          <article class="crt-panel artifact-card">
+            <h3>Firmware Artifact</h3>
+            <form id="artifactForm" class="stacked-form">
+              <label for="artifactName">Artifact Name</label>
+              <input id="artifactName" name="artifactName" type="text" placeholder="firmware.uf2" required />
+
+              <label for="artifactFile">Binary File</label>
+              <input id="artifactFile" name="artifactFile" type="file" required />
+
+              <button type="submit">Upload Artifact</button>
+            </form>
+            <p id="artifactResult" class="muted"></p>
+          </article>
+
+          <article class="crt-panel history-card">
+            <h3>Command History</h3>
+            <ul id="commandHistory" class="history-list"></ul>
+          </article>
+
+          <article class="crt-panel usb-card">
+            <h3>WebUSB Provisioning</h3>
+
+            <div class="usb-row">
+              <span id="ledUsb" class="led-dot led-off"></span>
+              <span>USB LINK</span>
+              <span id="usbState" class="status-chip">disconnected</span>
+            </div>
+
+            <p id="usbSupportNotice" class="error hidden"></p>
+
+            <label for="usbDeviceSelect">USB Device</label>
+            <select id="usbDeviceSelect"></select>
+
+            <div class="usb-row usb-actions">
+              <button id="usbRefreshBtn" type="button">Refresh List</button>
+              <button id="usbPairBtn" type="button">Add Device</button>
+              <button id="usbConnectBtn" type="button">Connect Selected</button>
+              <button id="usbDisconnectBtn" type="button">Disconnect</button>
+            </div>
+
+            <form id="usbSetForm" class="stacked-form">
+              <label for="usbDeviceId">Device ID</label>
+              <input id="usbDeviceId" name="usbDeviceId" type="text" maxlength="31" required />
+
+              <label for="usbApn">APN</label>
+              <input id="usbApn" name="usbApn" type="text" maxlength="47" required />
+
+              <label for="usbOperator">Operator</label>
+              <input id="usbOperator" name="usbOperator" type="text" maxlength="31" required />
+
+              <label for="usbSimPin">SIM PIN (optional)</label>
+              <input id="usbSimPin" name="usbSimPin" type="text" maxlength="15" />
+
+              <label for="usbServerUrl">Server URL</label>
+              <input id="usbServerUrl" name="usbServerUrl" type="url" maxlength="95" value="https://178.165.38.105.nip.io" required />
+
+              <label for="usbEnrollKey">Enroll Key</label>
+              <input id="usbEnrollKey" name="usbEnrollKey" type="text" maxlength="47" value="enroll_e3795db2f4ac89bf5301741a1872863f60e7d750" required />
+
+              <button type="submit">Set Config</button>
+            </form>
+
+            <form id="usbGetForm" class="stacked-form">
+              <label for="usbConfigPassword">Get Config Password</label>
+              <input id="usbConfigPassword" name="usbConfigPassword" type="password" maxlength="31" value="r1-config" />
+              <button type="submit">Get Config</button>
+            </form>
+
+            <pre id="usbConfigView" class="code-view"></pre>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script type="module" src="./app.js?v=R1"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+[Unit]
+Description=Renew LTE_SWD public TLS certificate (Lego TLS-ALPN)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/opt/lte_swd/deploy/pi3/renew_lego_tls.sh 178.165.38.105.nip.io admin@178.165.38.105.nip.io
